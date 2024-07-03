@@ -1,17 +1,22 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  isMenuOpen = false;
+  
+
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
+    const menu = document.getElementById('navbar-dropdown');
+    if (menu) {
+      menu.classList.toggle('hidden');
+    }
   }
   
 }
