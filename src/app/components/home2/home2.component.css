@@ -1,0 +1,13 @@
+.column {
+    flex: 1; /* Equal width for each column */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 1rem;
+  }
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+ 

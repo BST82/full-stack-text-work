@@ -1,0 +1,18 @@
+.navLink {
+    position: relative;
+}
+.navLink::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.navLink:hover::after {
+    visibility: visible;
+    width: 100%;
+}

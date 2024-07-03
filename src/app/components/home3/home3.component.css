@@ -1,0 +1,14 @@
+.myImage {
+    background-image: url('https://img.freepik.com/free-vector/paper-style-smooth-background_23-2148968643.jpg?w=996&t=st=1720041752~exp=1720042352~hmac=f42ce602ca9311dc6441bd997b0c99f8c0b690710fd03a7664cf56cc61eb6e28');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Set full viewport height */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color for better contrast */
+    font-family: Arial, sans-serif;
+  }
